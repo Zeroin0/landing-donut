@@ -72,7 +72,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="text-block-18">아래 항목별로 신청서를 작성해주세요!<br>제출을 완료하면 확인후 1일 이내에 확인 메일을 보내드립니다.<br></div>
       </div>
       <div>
-         <div class="div-block-33"><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></div>
+      <div>
+        <div class="form-block w-form">
+          <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form"><label for="node" class="field-label">성함</label><input type="text" class="text-field w-input" maxlength="256" name="field" data-name="성함" placeholder="이름을 입력해 주세요." id="node" required=""><label for="node-2" class="field-label-2">업체명</label><input type="email" class="text-field-2 w-input" maxlength="256" name="field" data-name="업체명" placeholder="업체명을 입력해주세요." id="node-2" required=""><label for="node-3" class="field-label-3">이메일</label><input type="email" class="text-field-3 w-input" maxlength="256" name="field" data-name="이메일" placeholder="이메일을 입력해주세요." id="node-3" required=""><label for="node-4" class="field-label-4">연락처</label><input type="tel" class="text-field-4 w-input" maxlength="256" name="field" data-name="연락처" placeholder="연락처를 입력해주세요." id="node-4" required=""><label for="node-5" class="field-label-4">랜딩페이지 타입</label><input type="text" class="text-field-4 w-input" maxlength="256" name="field" data-name="타입" placeholder="제작할 타입을 선택해주세요. ( A / B / C / D / E )" id="node-5" required=""><label for="node-6" class="field-label-4">요금 선택</label><input type="text" class="text-field-4 w-input" maxlength="256" name="field" data-name="요금 선택" placeholder="요금제를 선택해주세요. ( Standard / Premium )" id="node-6" required=""><label for="node-7" class="field-label-4">워딩서비스도 함께 신청하시나요?</label><input type="text" class="text-field-4 w-input" maxlength="256" name="field" data-name="워딩서비스" placeholder="네 (+10,0000)" id="node-7" required="">
+            <div class="div-block-33"><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></div>
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   </div>
